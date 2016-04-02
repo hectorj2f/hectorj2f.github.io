@@ -1,0 +1,233 @@
+
+body{
+
+}
+#mainBlock{
+border:4px solid;
+border-radius:25px;
+background-color:#898b8e;
+
+margin:0px auto;
+width:700px;
+margin-top:10px;
+}
+li{
+margin-top:6px;
+margin-bottom:6px
+}
+p{
+font-family: 'Schoolbell', arial, serif;
+}
+
+#foot{
+text-align:center;
+border:4px solid;
+border-radius:25px;
+margin:0px auto;
+width:700px;
+background-color: #2588c5;
+//background-color:#5db948;
+font-style:bold;
+font-family: 'Schoolbell', arial, serif;
+margin-top:15px;
+}
+#foot strong{
+color:white
+}
+#title{
+border:4px solid;
+border-radius:25px;
+margin:0px auto;
+width:700px;
+background-color: #2588c5;
+//background-color:#898b8e;
+//background-image:url('./images/vu2.png');
+background-size:60% 100%;
+background-repeat:no-repeat;
+}
+#title h1 {
+     text-shadow: 0px 1px 1px rgba(0,0,0,.2);
+     color:white;
+     margin-left:10%;
+     font-style:italic;
+     font-family: 'Verdana', arial, serif;
+}
+#title p{
+margin-top:-10px;
+color:white;
+ margin-left:42%;
+}
+#imageContact{
+height:370px;
+margin-top:0px;
+}
+#imageContact img{
+border:2px solid;
+margin-left:2%;
+margin-right:0.9%;
+}
+#meImage{
+float:left;
+border:4px solid;
+}
+#contact{
+margin-top:auto;
+margin-bottom:auto;
+border:3px solid;
+border-radius:25px;
+float:right;
+background-color:#e3e3e3;
+padding:10px;
+width:35%;
+text-align:left
+}
+
+
+#mainBlock .block{
+padding-top:25px;
+padding-bottom:25px;
+padding-right:50px;
+padding-left:50px;
+text-align:justify;
+text-justify:auto;
+margin:15px;
+border:3px solid;
+border-radius:25px;
+background-color:#e3e3e3;
+font-family: 'Schoolbell', arial, serif;
+}
+
+#cssmenu ul {
+  margin: 0;
+  padding: 0;
+}
+#cssmenu li {
+  margin: 0;
+  padding: 0;
+}
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul {
+  list-style: none;
+}
+#cssmenu a {
+  text-decoration: none;
+}
+#cssmenu {
+  height: 70px;
+  background-color: #232323;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+  width: auto;
+}
+#cssmenu > ul > li {
+  float: left;
+  margin-left: 15px;
+  position: relative;
+}
+#cssmenu > ul > li > a {
+  color: #a0a0a0;
+  font-family: Verdana, 'Lucida Grande';
+  font-size: 15px;
+  line-height: 70px;
+  padding: 15px 10px;
+  -webkit-transition: color .15s;
+  -moz-transition: color .15s;
+  -o-transition: color .15s;
+  transition: color .15s;
+}
+#cssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#cssmenu > ul > li > ul {
+  opacity: 0;
+  visibility: hidden;
+  padding: 16px 0 20px 0;
+  background-color: #fafafa;
+  text-align: left;
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  margin-left: -90px;
+  width: 180px;
+  -webkit-transition: all .3s .1s;
+  -moz-transition: all .3s .1s;
+  -o-transition: all .3s .1s;
+  transition: all .3s .1s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+}
+#cssmenu > ul > li:hover > ul {
+  opacity: 1;
+  top: 65px;
+  visibility: visible;
+}
+#cssmenu > ul > li > ul:before {
+  content: '';
+  display: block;
+  border-color: transparent transparent #fafafa transparent;
+  border-style: solid;
+  border-width: 10px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+#cssmenu > ul ul > li {
+  position: relative;
+}
+#cssmenu ul ul a {
+  color: #323232;
+  font-family: Verdana, 'Lucida Grande';
+  font-size: 13px;
+  background-color: #fafafa;
+  padding: 5px 8px 7px 16px;
+  display: block;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  -o-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+#cssmenu ul ul a:hover {
+  background-color: #f0f0f0;
+}
+#cssmenu ul ul ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: -16px;
+  left: 206px;
+  padding: 16px 0 20px 0;
+  background-color: #fafafa;
+  text-align: left;
+  width: 180px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+}
+#cssmenu ul ul > li:hover > ul {
+  opacity: 1;
+  left: 190px;
+  visibility: visible;
+}
+#cssmenu ul ul a:hover {
+  background-color: #cc2c24;
+  color: #f0f0f0;
+}
+#cssmenu .follow{
+margin-top:10px;
+margin-left:1%;
+}
